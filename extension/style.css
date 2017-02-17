@@ -3,6 +3,8 @@
 	width:25px;
 	display:table-cell;
 	vertical-align:middle;
+	border: 1px solid #009999;
+	padding: 1px;
 }
 
 .count-label { 
@@ -23,13 +25,14 @@
 	position: absolute;
 	color: white;
 	background-color: black;
-	font-size: 9pt;
+	font-size: 8pt;
 	padding: 5px 10px;
-	max-width: 200px;
+	width: 300px;
 	text-overflow: clip;
 	margin-left: 20px;
 	word-wrap: break-word;
-	margin-top: -47px;
+	margin-top: -68px;
+	text-align: justify;
 }
 
 .archs-tooltip:hover .archs-tooltip-text {
