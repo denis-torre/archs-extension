@@ -1,0 +1,58 @@
+.archs-logo {
+	height:25px;
+	width:25px;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.count-label { 
+	color:red;
+	display:table-cell;
+	vertical-align:middle;
+	padding-left:5px;
+}
+
+.archs-help {
+	position: absolute;
+	margin-left: -5px;
+	margin-top: 3px;
+}
+
+.archs-tooltip-text {
+	visibility: hidden;
+	position: absolute;
+	color: white;
+	background-color: black;
+	font-size: 9pt;
+	padding: 5px 10px;
+	max-width: 200px;
+	text-overflow: clip;
+	margin-left: 20px;
+	word-wrap: break-word;
+	margin-top: -47px;
+}
+
+.archs-tooltip:hover .archs-tooltip-text {
+	visibility: visible;
+}
+
+.archs-tooltip:hover .archs-tooltip-text::after {
+	content: "";
+	border-color: transparent black transparent transparent;
+	border-width: 5px;
+	border-style: solid;
+	left: -10px;
+	top: 50%;
+	position: absolute;
+}
+
+.heatmap-title {
+	font-size: 9pt;
+    padding: 10px 5px;
+    font-weight: 600;
+}
+
+.heatmap-description {
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
