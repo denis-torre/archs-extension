@@ -1,8 +1,9 @@
 {
 "name":"ARCHS4",
-"description":"Add gene counts to Series Matrix File",
-"version":"1",
+"description":"Ma'ayan Lab",
+"version":"1.0.0",
 "manifest_version":2,
+
 "content_scripts": [
     {
       "matches": ["https://www.ncbi.nlm.nih.gov/geo/*"],
@@ -10,18 +11,22 @@
       "css": ["style.css"]
     }
   ],
+
   "permissions": [
     "webNavigation",
     "tabs",
     "background",
     "http://amp.pharm.mssm.edu/awsscheduler/getGSEmatrix.php*"
   ],
+
   "browser_action": {
    "default_icon": "icons/icon_720.png"
   },
+
   "icons": {
     "128": "icons/icon_128.png",
     "720": "icons/icon_720.png"},
+
   "web_accessible_resources": [
     "icons/icon_128.png",
     "icons/icon_720.png",
