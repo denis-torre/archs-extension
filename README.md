@@ -5,6 +5,7 @@ ARCHS<sup>4</sup> (**A**ll **R**NA-seq and **CH**IP-**S**eq **S**ignature **S**e
 
 ### What functions does it add?
 The ARCHS<sup>4</sup> extension enriches GSE landing pages in two ways:
+
 1. By adding a link to an updated Series Matrix File, containing the gene counts generated from the matching raw sequencing files available on the SRA database.
 2. By adding an interactive heatmap visualization of the expression top 1000 most variable genes, generated using [Clustergrammer](http://amp.pharm.mssm.edu/clustergrammer/).
 
